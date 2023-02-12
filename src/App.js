@@ -2,10 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Library from "./pages/Library";
-import Home from "./pages/Home";
-import PublicArea from "./pages/PublicArea";
-import Stdy from "./pages/Stdy";
+import Library from "./Library";
+import Home from "./Home";
+import PublicArea from "./PublicArea";
+import Stdy from "./Stdy";
 
 
 

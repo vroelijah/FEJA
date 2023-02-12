@@ -1,13 +1,11 @@
 
 
+
 body {
-    font-family:'Times New Roman', Times, serif;
-}
-
-h1{
-    background-color: darkcyan;
-    padding: 20px;
-}
-
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
 
 

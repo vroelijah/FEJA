@@ -1,13 +1,55 @@
 
-
-body {
-    font-family:'Times New Roman', Times, serif;
-}
-
-h1{
-    background-color: darkcyan;
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    justify-content: center;
+    background-color: maroon;
     padding: 20px;
+    gap: 50px
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(240, 10, 10, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  button {
+    background-color: #f23636;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  .filter-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    color: white;
+    background-color: purple;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 40px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #e82f2f;
+  }
+  
+  body {
+    background-color: maroon;
+    }
+body {
+    font-family: Geneva, Verdana, sans-serif;
 }
+
 
 
 

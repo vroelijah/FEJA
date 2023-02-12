@@ -1,6 +1,6 @@
 
+import { Link } from 'react-router-dom';
 import './css/Home.css';
-
 
 
 
@@ -12,16 +12,14 @@ let Home = ()=>{
     
 
     <div>
-         
-    <div class="grid-container">
-        <div class="grid-item">Parking</div>
-        <div class="grid-item">Studying</div>
-        <div class="grid-item">Gym</div>
- </div>
-    <h1><center>Home</center></h1>
-    <h2><center>Parking</center></h2>
-    <h2><center>Studying</center></h2>
-    <h2><center>Gym</center></h2>
+        <h1><center>Home</center></h1>
+        <button class="filter-button">Filter</button>
+        <div class="grid-container">
+        <div class="grid-item"><button>Parking</button></div>
+        <div class="grid-item"><button>Studying</button></div>
+        <div class="grid-item"><button>Gym</button></div>
+</div>
+    
 
     
 

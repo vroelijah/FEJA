@@ -1,0 +1,14 @@
+
+
+body {
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+
+
+  button {
+    cursor: pointer;
+  }
+  

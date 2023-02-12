@@ -1,15 +1,13 @@
 
-<<<<<<< HEAD
-
-
-
-
-
-let Stdy=()=>{
-    return(
-        <h1>Study Areas</h1>
-=======
 import "./css/Stdy.css";
+
+
+
+
+
+
+
+
 
 let Stdy=()=>{
     return(
@@ -33,7 +31,7 @@ let Stdy=()=>{
 
 
 
->>>>>>> 47f087c30add77ee8b3b18b456824f268a322cfb
+
     )
 }
 
